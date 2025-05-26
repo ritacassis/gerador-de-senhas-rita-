@@ -3,10 +3,10 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #845cc4;
-    --fundo-senha: #6f39b6;
-    --fundo-texto: #7218c7;
-    --borda: #2d074d;
+    --cor-de-fundo: #071772;
+    --fundo-senha: #020a4e;
+    --fundo-texto: #050b5f;
+    --borda: #0b033a;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -89,10 +89,10 @@ body{
     display: flex;
     justify-content:center
 }
-.parametro-senha__botao{
+.parametro-senha__botao {
     background-color: var(--fundo-texto);
-    color:var(--branco)
-    borde:2px solid var(var(--borda))
+    color:var(--branco);
+    border: 2px;solide (var(--borda))
     padding:24px;
     font-size: 24px;
     cursor:pointer;
@@ -109,7 +109,29 @@ font-size: 24px;
         flex-direction: row;
     }
 }
-. barra {
-   background-color:var(--cor-de-fundo)
+.barra {
+   background-color:var(--cor-de-fundo);
+
    
+}
+.força{
+    height: 30px;
+    position:relative;
+    bottom: 30px;
+}
+.fraca{
+    width: 25;
+    background-color: red;
+}
+.parametr-senha-textos {
+display: flex;
+justify-content:space-between ;
+}
+.média{
+    background-color: yellow;
+    width: 50;
+}
+.forte{
+background-color: green;
+width: 100;
 }
